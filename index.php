@@ -6,6 +6,7 @@ include_once("image.php")
 <head>
         <meta charset="UTF-8">
 		<title>Advanced Defense Lab</title>
+		<link href="adl.ico" rel="SHORTCUT ICON">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="animate.css">
@@ -16,7 +17,7 @@ include_once("image.php")
 <body>
 	<div class="container animated fadeInUp">
 		<div id="middle">
-			<img id="mainimg" src="http://adl.csie.ncu.edu.tw/adlab/theme/default/graph/menu-shield.png">
+			<img id="mainimg" src="adl.png">
 		</div>
 		<div id="title">
 					<h1>Advance Defense Lab</h1>
@@ -42,8 +43,8 @@ include_once("image.php")
 				<li><a onclick=showContent("#Presentation") href="#">Presentation</a></li>
 				<li><a onclick=showContent("#Alumni") href="#">Alumni</a></li>
 				<li><a onclick=showContent("#Students") href="#">Students</a></li>
-				<li><a href="#">Album</a></li>
-				<li><a href="#">Wiki</a></li>
+				<li><a href="http://adl.csie.ncu.edu.tw/album3/">Album</a></li>
+				<li><a href="http://adl.csie.ncu.edu.tw/wiki/">Wiki</a></li>
 				<li><a onclick=showContent("#LTG") href="#">Lab Tour Guide</a></li>
 			</ul>
 		</div>
@@ -114,8 +115,18 @@ include_once("image.php")
 </div>
 <div class="page" id="Faculty">
 	<div class="container">
+		<div class>
 		<h1>Faculty</h1>
-		<h3>Dr.<a href="http://www.csie.ncu.edu.tw/~hsufh/"> 許富皓 (Fu-Hau Hsu)</a></h3>
+		</div>
+
+		<div class="col-md-12 StuPic">
+			<div class="col-md-4 col-md-offset-2">
+				<img id="TeacherPic" src="Hsufh-head.jpg">
+			</div>
+			<div class="col-md-6">		
+				<h3>Dr.<a href="http://www.csie.ncu.edu.tw/~hsufh/"> 許富皓 (Fu-Hau Hsu)</a></h3>
+			</div>
+		</div>
 	</div>
 </div>
 <div id="Publication" class="page">
@@ -687,7 +698,7 @@ include_once("image.php")
 				</div>
 				<div class="col-md-6">
 				<ul>
-					<li>黃政憲 (ChengHsien Huang)
+					<li><b class="NameofStu">黃政憲 (ChengHsien Huang)</b>
 					<ul>
 						<li>Automatic Virus Classifier </li>
 						<li>Defense a System against Kernel-Level Rootkit</li>
@@ -701,7 +712,7 @@ include_once("image.php")
 				</div>
 				<div class="col-md-6">
 				<ul>
-					<li><a href="../~kent/index.htm" target="_blank">徐裕量 (Yuliang Hsu)</a>
+					<li><b class="NameofStu"><a href="../~kent/index.htm" target="_blank">徐裕量 (Yuliang Hsu)</a></b>
 					<ul>
 						<li>Reputation System/Recommendation System</li>
 						<li>Click Fraud</li>
@@ -717,7 +728,7 @@ include_once("image.php")
 				</div>
 				<div class="col-md-6">
 				<ul>
-					<li><a href="../~nfsnfs/" target="_blank">陳立函 (LiHan Chen)</a>
+					<li><b class="NameofStu"><a href="../~nfsnfs/" target="_blank">陳立函 (LiHan Chen)</a></b>
 					<ul>
 						<li>Attack Redirection </li>
 						<li>Honeypot </li>
@@ -728,17 +739,344 @@ include_once("image.php")
 				</ul>
 				</div>
 			</div>
-			<div class="col-md-12">
-				<h2>Master Student</h2>
-				<h3>Class of 2015</h3>
+			<div class="col-md-12 StuPic">
+			<h3>Class of 2014</h3>
+			<h4>Full-time</h4>
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('cktso@csie.ncu.edu.tw');?>">
+				</div>
+	
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="../~kyletso/" target="_blank">左昌國 (ChangKuo Tso)</a></b>
+					<ul>
+						<li>Web Security</li>
+					</ul></li>
+				</ul>
+				</div>
 			</div>
+			
+			<div class="col-md-12 StuPic">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('985402017@cc.ncu.edu.tw ');?>">
+				</div>
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="../~ernieshu/" target="_blank">許齊顯 (ChiHsien Hsu)</a></b>
+					<ul>
+						<li>Symbian</li>
+					</ul></li>
+				</ul>
+				</div>	
+			</div>
+
+			<div class="col-md-12 StuPic">
+			<h3>Class of 2015</h3>
+			<h4>Full-time</h4>
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('975202074@cc.ncu.edu.tw');?>">
+				</div>
+	
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="../~wangcs/" target="_blank">王傳陞 (ChuanSheng Wang)</a></b>
+						<ul>
+							<li> </li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-12 StuPic">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('995402015@cc.ncu.edu.tw ');?>">
+				</div>
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="../~mhwu/" target="_blank">吳敏豪 (MinHao Wu)</a></b>
+					<ul>
+						<li>Information Hiding</li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>	
+			
+			<div class="col-md-12 StuPic">
+			<h3>Class of 2017</h3>
+			<h4>Full-time</h4>
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('solars@cl.ncu.edu.tw');?>">
+				</div>
+	
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="http://adl.csie.ncu.edu.tw/~solars/" target="_blank">鄭有為</a></b>
+					<ul>
+						<li> </li>
+					</ul></li>
+				</div>
+			</div>
+
+			<div class="col-md-12 StuPic">
+				<h2>Master Student</h2>
+				<h3>Class of 2009</h3>
+				<h4>Part-time</h4>
+
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('#');?>">
+				</div>
+	
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu">蔡其宏</b>
+					<ul>
+						<li>DoS/DDoS Attacks</li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+			
+			<div class="col-md-12 StuPic">
+			<h3>Class of 2010</h3>
+			<h4>Part-time</h4>
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('#');?>">
+				</div>
+	
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu">盧郁中</b>
+					<ul>
+						<li>Internet Banking : Attack and Defense Based on the Use of Smart Card Transactions</li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-12 StuPic">
+			<h3>Class of 2011</h3>
+			<h4>Part-time</h4>
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('#');?>">
+				</div>
+	
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu">陳漢平 (HanPing Chen)</b>
+					<ul>
+						<li> </li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-12 StuPic">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('# ');?>">
+				</div>
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="http://" target="_blank">黃郁偉</a></b>
+					<ul>
+						<li> </li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+
+			<div class="col-md-12 StuPic">
+			<h3>Class of 2013</h3>
+			<h4>Part-time</h4>
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('#');?>">
+				</div>
+	
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="http://" target="_blank">胡睿麟</a></b>
+					<ul>
+						<li>Security.</li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+
+			<div class="col-md-12 StuPic">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('# ');?>">
+				</div>
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="http://" target="_blank">張雅晴 (YaChing Chang)</a></b>
+					<ul>
+						<li>Security.</li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+			
+			<div class="col-md-12 StuPic">
+			<h3>Class of 2014</h3>
+			<h4>Full-time</h4>
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('timlingtw@gmail.com');?>">
+				</div>
+	
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="http://adl.csie.ncu.edu.tw/~timling/" target="_blank">凌宗廷 (TzungTing Lin)</a></b>
+					<ul>
+						<li> </li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-12 StuPic">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('101522065@cc.ncu.edu.tw');?>">
+				</div>
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="http://adl.csie.ncu.edu.tw/~fred104" target="_blank">張嘉顯 (JiaSian Jhang)</a></b>
+					<ul>
+						<li> </li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+
+			<div class="col-md-12 StuPic">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('mike820324@gmail.com');?>">
+				</div>
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="http://adl.csie.ncu.edu.tw/~mike820324/" target="_blank">江瑞敏 (RueiMin Jiang)</a></b>
+					<ul>
+						<li> </li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-12 StuPic">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('# ');?>">
+				</div>
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="http://adl.csie.ncu.edu.tw/~jeremy/" target="_blank">黃建瑋 (ChiehWei Huang)</a></b>
+					<ul>
+						<li> </li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-12 StuPic">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('101522087@cc.ncu.edu.tw');?>">
+				</div>
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="http://adl.csie.ncu.edu.tw/~h4353062/" target="_blank">鍾怡傑 (YiChieh Chung)</a></b>
+					<ul>
+						<li> </li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-12 StuPic">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('# ');?>">
+				</div>
+				<div class="col-md-6">
+				<ul>
+				<li><b class="NameofStu"><a href="http://adl.csie.ncu.edu.tw/~inscy/" target="_blank">顏孟加 (MengJia Yan)</a></b>
+					<ul>
+						<li> </li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-12 StuPic">
+			<h3>Class of 2014</h3>
+			<h4>Full-time</h4>
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('102522038@cc.ncu.edu.tw ');?>">
+				</div>
+	
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="http://adl.csie.ncu.edu.tw/~sohjiro0122/" target="_blank">廖克軒 (KerHsuan Liao)</a></b>
+					<ul>
+						<li>尚未決定</li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+
+			<div class="col-md-12 StuPic">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('# ');?>">
+				</div>
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="http://adl.csie.ncu.edu.tw/~linliang/personal_web/" target="_blank">林良軒 (LiangHsuan Lin)</a></b>
+					<ul>
+						<li></li>
+					</ul></li>	
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-12 StuPic">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('102522096"at"cc.ncu.edu.tw
+
+');?>">
+				</div>
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="http://140.115.53.5/~wuhaocheng/wuhaochengwebsite/index.php?" target="_blank">吳昊澄 (HaoCheng Wu)</a></b>
+					<ul>
+						<li>待研究</li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
+
+			<div class="col-md-12 StuPic">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="<?php echo get_gravatar('enco31437@gmail.com');?>">
+				</div>
+				<div class="col-md-6">
+				<ul>
+					<li><b class="NameofStu"><a href="http://adl.tw/~irene/personal_info.html" target="_blank">羅婷 (Ting Luo)</a></b>
+					<ul>
+						<li>Security.</li>
+					</ul></li>
+				</ul>
+				</div>
+			</div>
+
 			<div class="col-md-12 StuPic">
 				<div class="col-md-4 col-md-offset-2">
 					<img src="<?php echo get_gravatar('sntc06@gmail.com');?>;">
 				</div>
 				<div class="col-md-6">
 				<ul>
-					<li><a href="http://adl.csie.ncu.edu.tw/~sntc06" target="_blank">蔡維泰 (Weitai Cai)</a>
+					<li><b class="NameofStu"><a href="http://adl.csie.ncu.edu.tw/~sntc06" target="_blank">蔡維泰 (Weitai Cai)</a></b>
 					<ul>
 					<li>Security.</li>
 					</ul></li>
