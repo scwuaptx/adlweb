@@ -42,6 +42,9 @@ h1,h2{
 	box-shadow:0px 0px 10px 3px rgba(222,222,222,0.4);
 	transition:background-color .25s linear,box-shadow .25s linear,text-shadow .25s linear;
 }
+
+
+
 .btn{
 	color: rgb(255,255,255);
 	background-color:rgb(0,0,0);

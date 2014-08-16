@@ -6,7 +6,7 @@ include_once("image.php")
 <head>
         <meta charset="UTF-8">
 		<title>Advanced Defense Lab</title>
-		<link href="adl.ico" rel="SHORTCUT ICON">
+		<link href="image/adl.ico" rel="SHORTCUT ICON">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="animate.css">
@@ -17,7 +17,7 @@ include_once("image.php")
 <body>
 	<div class="container animated fadeInUp">
 		<div id="middle">
-			<img id="mainimg" src="adl.png">
+			<img id="mainimg" src="image/adl.png">
 		</div>
 		<div id="title">
 					<h1>Advance Defense Lab</h1>
@@ -36,7 +36,7 @@ include_once("image.php")
 		<div class="navbar-header">
 
 
-		<img class="navbar-brand" id="PicofNavbar" src="adl.png">
+		<img class="navbar-brand" id="PicofNavbar" src="image/adl.png">
 
 			<a class="navbar-brand" id="name" href="#">Advance Defense Lab</a>
 	</div>
@@ -109,7 +109,7 @@ include_once("image.php")
 			<h1>About ADL</h1>
 		</div>
 		<div class="col-md-4 col-md-offset-2">
-			<img src="http://adl.csie.ncu.edu.tw/adlab/graph/lab-poster.jpg">	
+			<img src="image/lab-poster.jpg">	
 		</div>
 		<div class="col-md-6">
 				<h2>Founding Date</h2>
@@ -133,7 +133,7 @@ include_once("image.php")
 
 		<div class="col-md-12 StuPic">
 			<div class="col-md-4 col-md-offset-2">
-				<img id="TeacherPic" src="Hsufh-head.jpg">
+				<img id="TeacherPic" src="image/Hsufh-head.jpg">
 			</div>
 			<div class="col-md-6">		
 				<h3>Dr.<a href="http://www.csie.ncu.edu.tw/~hsufh/"> 許富皓 (Fu-Hau Hsu)</a></h3>
