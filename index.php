@@ -31,11 +31,20 @@ include_once("image.php")
 <nav id="bar" class="navbar navbar-inverse" role="navigation">
 	<div class="container">
 	<div class="container-fluid">
+
+
 		<div class="navbar-header">
+
+
+		<img class="navbar-brand" id="PicofNavbar" src="adl.png">
+
 			<a class="navbar-brand" id="name" href="#">Advance Defense Lab</a>
 	</div>
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul id="menu" class="nav navbar-nav">
+
+
+
 				<li><a onclick=showContent("#Home") href="#">Home</a></li>
 				<li><a onclick=showContent("#About") href="#">About ADL</a><li>
 				<li><a onclick=showContent("#Faculty") href="#">Faculty</a></li>
@@ -46,7 +55,10 @@ include_once("image.php")
 				<li><a href="http://adl.csie.ncu.edu.tw/album3/">Album</a></li>
 				<li><a href="http://adl.csie.ncu.edu.tw/wiki/">Wiki</a></li>
 				<li><a onclick=showContent("#LTG") href="#">Lab Tour Guide</a></li>
+
+
 			</ul>
+		
 		</div>
 	</div>
 	</div>
@@ -1008,7 +1020,7 @@ include_once("image.php")
 			</div>
 
 			<div class="col-md-12 StuPic">
-			<h3>Class of 2014</h3>
+			<h3>Class of 2015</h3>
 			<h4>Full-time</h4>
 				<div class="col-md-4 col-md-offset-2">
 					<img src="<?php echo get_gravatar('102522038@cc.ncu.edu.tw ');?>">
