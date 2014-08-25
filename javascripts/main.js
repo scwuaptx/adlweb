@@ -4,7 +4,7 @@ $(function(){
 });
 
 function Hide(){
-	$("#middle,#title,#enter").fadeOut();
+	$("#maindiv").fadeOut();
 	setTimeout(function(){
 		$("#bar").show("slow");
 		setTimeout(function(){$("#Home").fadeIn();

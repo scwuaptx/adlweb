@@ -16,16 +16,19 @@ include_once("image.php")
 </head>
 <body>
 	<div class="container animated fadeInUp">
-		<div id="middle">
-			<img id="mainimg" src="image/adl.png">
-		</div>
-		<div id="title">
-					<h1>Advance Defense Lab</h1>
-					<HR>
-				<h3>先進防禦實驗室</h3>
-		</div>
-		<div id="enter">
-			<button type="button" class="btn btn-lg btn-outline" onclick="Hide()">Enter</button>
+		<div id="maindiv">
+			<div id="middle">
+				<img id="mainimg" src="image/adl.png">
+			</div>
+			<div id="title">
+						<h1>Advance Defense Lab</h1>
+						<HR>
+					<h3>先進防禦實驗室</h3>
+					<br>
+			</div>
+			<div id="enter">
+				<button type="button" class="btn btn-lg btn-outline" onclick="Hide()">Enter</button>
+			</div>
 		</div>
 	</div>
 <nav id="bar" class="navbar navbar-inverse" role="navigation">
